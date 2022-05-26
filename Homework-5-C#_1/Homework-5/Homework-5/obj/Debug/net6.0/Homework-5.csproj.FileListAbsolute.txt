@@ -1,0 +1,15 @@
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\bin\Debug\net6.0\Homework-5.exe
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\bin\Debug\net6.0\Homework-5.deps.json
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\bin\Debug\net6.0\Homework-5.runtimeconfig.json
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\bin\Debug\net6.0\Homework-5.dll
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\bin\Debug\net6.0\Homework-5.pdb
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\obj\Debug\net6.0\Homework-5.csproj.AssemblyReference.cache
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\obj\Debug\net6.0\Homework-5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\obj\Debug\net6.0\Homework-5.AssemblyInfoInputs.cache
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\obj\Debug\net6.0\Homework-5.AssemblyInfo.cs
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\obj\Debug\net6.0\Homework-5.csproj.CoreCompileInputs.cache
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\obj\Debug\net6.0\Homework-5.dll
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\obj\Debug\net6.0\refint\Homework-5.dll
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\obj\Debug\net6.0\Homework-5.pdb
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\obj\Debug\net6.0\Homework-5.genruntimeconfig.cache
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-5-C#_1\Homework-5\Homework-5\obj\Debug\net6.0\ref\Homework-5.dll
