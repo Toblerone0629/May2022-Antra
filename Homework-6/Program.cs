@@ -173,11 +173,111 @@ public class Q3
 /*
 4.
 */
-
+/*
 public class Q4
 {
+    public static void digitSwap(int[] arr, int index)
+    {
+        int[] result = new int[arr.Length];
+        print(arr, true);
+        //print(result);
+        for(int i = 0; i < index; i++)
+        {
+            int pointer = arr.Length - i - 1;
+            Console.Write("rotated{0}[] = ", i+1);
+            for (int j = 0; j < arr.Length; j++)
+            {
+                result[j] += arr[pointer];
+                Console.Write("{0, 3}", arr[pointer]);
+                Console.Write(" ");
+                pointer++;
+                pointer %= arr.Length;
+            }
+            Console.WriteLine();
+        }
+        print(result, false);
+    }
+    public static void print(int[] arr, bool begin)
+    {
+        if (begin)
+        {
+            Console.Write("   Array[] = ");
+        }
+        else
+        {
+            Console.Write("     sum[] = ");
+        }
+        for (int i=0; i<arr.Length; i++)
+        {
+            Console.Write("{0, 3}", arr[i]);
+            Console.Write(" ");
+        }
+        Console.WriteLine();
+    }
     public static void Main()
     {
+        int[] arr1 = { 3, 2, 4, -1 };
+        int k1 = 2;
+        int[] arr2 = { 1, 2, 3, 4, 5 };
+        int k2 = 3;
+        Console.WriteLine("Array 1");
+        digitSwap(arr1, k1);
+        Console.WriteLine("Array 2");
+        digitSwap(arr2, k2);
+    }
+}
+*/
 
+/*
+5.
+*/
+public class Q5
+{
+    public static void longestSubsequence(int[] arr)
+    {
+        int currDigit = arr[0];
+        int maxDigit = 0;
+        int maxNum = 0;
+        int count = 0;
+
+        for(int i = 0; i < arr.Length; i++)
+        {
+            if (arr[i] != currDigit && count > maxNum)
+            {
+                maxDigit = currDigit;
+                currDigit = arr[i];
+                maxNum = count;
+                count = 1;
+            }
+            else
+            {
+                count++;
+            }
+        }
+
+        if(count > maxNum)
+        {
+            maxDigit = currDigit;
+            maxNum = count;
+        }
+
+        for(int j = 0; j < maxNum; j++)
+        {
+            Console.Write(maxDigit);
+            Console.Write("  ");
+        }
+        Console.WriteLine();
+    }
+    public static void Main()
+    {
+        int[] arr1 = { 2, 1, 1, 2, 3, 3, 2, 2, 2, 1 };
+        int[] arr2 = { 1, 1, 1, 2, 3, 1, 3, 3 };
+        int[] arr3 = { 4, 4, 4, 4 };
+        int[] arr4 = { 0, 1, 1, 5, 2, 2, 6, 3, 3 };
+
+        longestSubsequence(arr1);
+        longestSubsequence(arr2);
+        longestSubsequence(arr3);
+        longestSubsequence(arr4);
     }
 }
