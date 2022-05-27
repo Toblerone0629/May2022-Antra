@@ -39,6 +39,7 @@
 /*
 1.
  */
+/*
 public class Q1
 {
     public static int[] GenerateNumber()
@@ -89,7 +90,56 @@ public class Q1
         PrintNumber(arr2);
     }
 }
+*/
 
 /*
 2.
+*/
+/*
+public class Q2
+{
+    public static int[] arr;
+    public static void Fibonacci(int fib)
+    {
+        arr = new int[fib];
+        arr[0] = 1;
+        arr[1] = 1;
+
+        for(int i = 2; i < fib; i++)
+        {
+            arr[i] = arr[i - 1] + arr[i - 2];
+        }
+    }
+    public static void PrintFib()
+    {
+        Console.WriteLine("Here are first {0} fibonacci digits", arr.Length);
+        for(int i=0; i<arr.Length; i++)
+        {
+            if(i != 0 && i % 10 == 0)
+            {
+                Console.WriteLine();
+            }
+            Console.Write("{0}", arr[i]);
+            Console.Write("  ");
+        }
+        Console.WriteLine();
+    }
+    public static void Main()
+    {
+        Fibonacci(10);
+        PrintFib();
+        Console.WriteLine();
+        Fibonacci(20);
+        PrintFib();
+        Console.WriteLine();
+        Fibonacci(50);
+        PrintFib();
+        // for the print of first 50 digits, it exceeds the maximum of integer, so there are some negative number occur
+    }
+}
+*/
+
+//Design and build class using OOP
+/*
+1.
 */
