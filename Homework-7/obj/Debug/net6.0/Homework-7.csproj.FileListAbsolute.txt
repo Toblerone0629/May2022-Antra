@@ -1,0 +1,15 @@
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\bin\Debug\net6.0\Homework-7.exe
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\bin\Debug\net6.0\Homework-7.deps.json
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\bin\Debug\net6.0\Homework-7.runtimeconfig.json
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\bin\Debug\net6.0\Homework-7.dll
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\bin\Debug\net6.0\Homework-7.pdb
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\obj\Debug\net6.0\Homework-7.csproj.AssemblyReference.cache
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\obj\Debug\net6.0\Homework-7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\obj\Debug\net6.0\Homework-7.AssemblyInfoInputs.cache
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\obj\Debug\net6.0\Homework-7.AssemblyInfo.cs
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\obj\Debug\net6.0\Homework-7.csproj.CoreCompileInputs.cache
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\obj\Debug\net6.0\Homework-7.dll
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\obj\Debug\net6.0\refint\Homework-7.dll
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\obj\Debug\net6.0\Homework-7.pdb
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\obj\Debug\net6.0\Homework-7.genruntimeconfig.cache
+C:\Users\liuwe\Documents\GitHub\May2022-Antra\Homework-7\obj\Debug\net6.0\ref\Homework-7.dll
