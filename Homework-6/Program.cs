@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 /*
 1.When to use String vs. StringBuilder in C# ?
     string is when we need to initialize a string that we would used for visit
@@ -231,6 +232,7 @@ public class Q4
 /*
 5.
 */
+/*
 public class Q5
 {
     public static void longestSubsequence(int[] arr)
@@ -247,6 +249,10 @@ public class Q5
                 maxDigit = currDigit;
                 currDigit = arr[i];
                 maxNum = count;
+                count = 1;
+            }
+            else if (arr[i] != currDigit)
+            {
                 count = 1;
             }
             else
@@ -279,5 +285,78 @@ public class Q5
         longestSubsequence(arr2);
         longestSubsequence(arr3);
         longestSubsequence(arr4);
+    }
+}
+*/
+
+/*
+7.
+*/
+/*
+public class Q7
+{
+    public static void FindMostFrequent(int[] arr)
+    {
+        Array.Sort(arr);
+        int maxFreq = 0;
+        int count = 0;
+        int prev = arr[0];
+
+        for(int i = 0; i < arr.Length; i++)
+        {
+            if (arr[i] != prev || i == arr.Length-1)
+            {
+                maxFreq = Math.Max(maxFreq, count);
+                count = 1;
+                prev = arr[i];
+            }
+            else
+            {
+                count++;
+            }
+        }
+        Console.WriteLine(maxFreq);
+    }
+    public static void Main()
+    {
+        int[] arr1 = { 4, 1, 1, 4, 2, 3, 4, 4, 1, 2, 4, 9, 3 };
+        int[] arr2 = { 7, 7, 7, 0, 2, 2, 2, 0, 10, 10, 10 };
+
+        FindMostFrequent(arr1);
+        FindMostFrequent(arr2);
+    }
+}
+*/
+
+/*
+1.
+*/
+public class Q8
+{
+    public static void ReverseStr(string str)
+    {
+        string reverse = "";
+        for(int i = str.Length - 1; i >= 0; i--)
+        {
+            reverse += str[i];
+        }
+        Console.WriteLine(reverse);
+    }
+    public static void PrintReverse(string str)
+    {
+        for(int i = str.Length - 1; i >= 0; i--)
+        {
+            Console.Write(str[i]);
+        }
+        Console.WriteLine();
+    }
+    public static void Main()
+    {
+        string str1 = "sample";
+        string str2 = "24tvcoi92";
+        ReverseStr(str1);
+        PrintReverse(str1);
+        ReverseStr(str2);
+        PrintReverse(str2);
     }
 }
